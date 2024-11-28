@@ -1,5 +1,5 @@
 {
-  description = "My Awesome Desktop Shell";
+  description = "Bar ripped from example";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
