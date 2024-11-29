@@ -1,16 +1,16 @@
 @use "sass:color";
 
-$bg: #081221;
-$fg: #f1f1f1;
-$accent: #378DF7;
+$bg: #2E1823;
+$fg: #fecdb2;
+$accent: #1CA2F4;
 $radius: 7px;
 
 window.Bar {
     border: none;
     box-shadow: none;
-    background-color: color.adjust($bg, $alpha: -0.3);
+    background-color: $bg;
     color: $fg;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
 
     button {
