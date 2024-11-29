@@ -11,7 +11,7 @@ import Tray from "gi://AstalTray"
 function SysTray() {
     const tray = Tray.get_default()
 
-    return <box>
+    return <box className="SysTray">
         {bind(tray, "items").as(items => items.map(item => {
             if (item.iconThemePath)
                 App.add_icons(item.iconThemePath)
