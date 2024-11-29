@@ -155,7 +155,7 @@ export default function Bar(monitor: Gdk.Monitor) {
                 <Wifi />
                 <AudioSlider />
                 <BatteryLevel />
-                <Time />
+                <Time format="%H:%M - %d/%m/%Y wk.%V" />
             </box>
         </centerbox>
     </window>
