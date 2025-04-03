@@ -147,6 +147,7 @@ export default function Bar(monitor: Gdk.Monitor) {
                 <Workspaces />
                 <FocusedClient />
             </box>
+            <box></box>
             <box hexpand halign={Gtk.Align.END} >
                 <SysTray />
                 <Wifi />
